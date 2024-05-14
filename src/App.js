@@ -1,12 +1,16 @@
 import './App.css';
-import Relogio from "./Relogio";
-import EfeitoDigitacao from "./EfeitoDigitacao";
+
+import Navbar from "./components/Navbar";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import MyRoutes from "./MyRoutes";
 
 function App() {
     return (
         <div className="App">
-            <Relogio />
-            <EfeitoDigitacao frase={"Olá, meu nome é Jordan Douglas"} velocidadeDigitacao={100} />
+            <Navbar />
+            <MyRoutes />
         </div>
 
     );
