@@ -29,7 +29,6 @@ export default function List() {
         li {
           display: flex;
           align-items: center;
-          margin-bottom: 20px;
         }
         .info {
           margin-left: 10px;
