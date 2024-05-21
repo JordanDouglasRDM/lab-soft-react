@@ -10,6 +10,7 @@ export default function MyRoutes() {
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/atv01" element={<Atv01/>}></Route>
                 <Route path="/atv02" element={<Atv02/>}></Route>
+                <Route path="/atv02" element={<Atv02/>}></Route>
             </Routes>
         </BrowserRouter>
     );
