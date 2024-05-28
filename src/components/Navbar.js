@@ -44,6 +44,8 @@ function Navbar() {
                                     </li>
                                     <li><a className="dropdown-item" href="/atv03">Atividade 3</a>
                                     </li>
+                                    <li><a className="dropdown-item" href="/atv04/bucketlist">Atividade 4</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
