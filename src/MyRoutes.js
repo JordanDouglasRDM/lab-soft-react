@@ -18,7 +18,14 @@ import List4 from "./components/semana-4/List4";
 import MovingDot from "./components/semana-4/MovingDot";
 import ShapeEditor from "./components/semana-4/ShapeEditor";
 import Toolbar from "./components/semana-4/Toolbar";
-import { Outlet } from "react-router-dom";
+
+import Atv05 from "./Pages/Atv05";
+import Accordion from "./components/semana-5/Accordion";
+import ContactList from "./components/semana-5/ContactList";
+import Form1Atv5 from "./components/semana-5/Form1Atv5";
+import Form2Atv5 from "./components/semana-5/Form2Atv5";
+import Messenger from "./components/semana-5/Messenger";
+import Chat from "./components/semana-5/Chat";
 
 export default function MyRoutes() {
     return (
@@ -43,6 +50,14 @@ export default function MyRoutes() {
                     <Route path="movingdot" element={<MovingDot />} />
                     <Route path="shapeeditor" element={<ShapeEditor />} />
                     <Route path="toolbar" element={<Toolbar />} />
+                </Route>
+                <Route path="/atv05" element={<Atv05 />}>
+                    <Route path="accordion" element={< Accordion />} />
+                    <Route path="chat" element={< Chat />} />
+                    <Route path="contactlist" element={< ContactList />} />
+                    <Route path="form1atv5" element={< Form1Atv5 />} />
+                    <Route path="form2atv5" element={< Form2Atv5 />} />
+                    <Route path="messenger" element={< Messenger />} />
                 </Route>
             </Routes>
         </BrowserRouter>

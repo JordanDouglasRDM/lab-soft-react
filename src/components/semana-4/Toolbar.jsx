@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 function Button({ onClick, children }) {
     return (
         <button onClick={e => {

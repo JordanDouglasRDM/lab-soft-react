@@ -13,7 +13,7 @@ const Atv04 = () => {
             <div className="pb-5">
                 <div className="mt-4 text-center">
                     <h2 className="text-center">Atividade 4</h2>
-                    <p>Essa atividade é composta por diversos exercícios, você pode navegar entre eles sem sair da página ;)</p>
+                    <p>Essa atividade é composta por diversos exercícios, você pode navegar entre eles sem sair desta página ;)</p>
                 </div>
                 <div className="main d-flex">
                     <div className="sidebar mt-4 ms-3" style={{width: '250px'}}>
